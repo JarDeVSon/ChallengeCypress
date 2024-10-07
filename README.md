@@ -41,6 +41,7 @@ Run the command "npm install" to install the following dependencies:
 | fixtures                   | responsible for managing test data mass                                         |
 | selectors                  | responsible for identifying web elements                                        |
 | support/commands.web.js    | responsible for page actions (navigation, type, getText, clicks, selects.)      |
+| support/commands.api.js    | responsible for resources for API (request, response, validations, status code) |
 | e2e                        | responsible for executing the test suite                                        |
 
 #### Running the Cypress in the Interactive mode or Headless:
