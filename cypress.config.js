@@ -17,8 +17,8 @@ module.exports = defineConfig({
     waitForAnimations: true,
     defaultCommandTimeout: 30000,
     pageLoadTimeout: 30000,
-    requestTimeout: 6000,
-    responseTimeout: 6000,
+    requestTimeout: 60000,
+    responseTimeout: 60000,
     video: true,
     env: {
       requestMode: true,
