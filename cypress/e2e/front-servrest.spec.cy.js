@@ -16,11 +16,7 @@ devices.forEach((viewport) => {
         cy.log(viewport);
       }
     });
-    // afterEach(() => {
-    //callback function to execute after each test
-    //   cy.injectAxe();
-    //   cy.checkA11y();
-    // })
+
 
     it("Login with successfully", () => {
       cy.fixture("massa-valida").then((data) => {
