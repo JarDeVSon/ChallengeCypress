@@ -19,6 +19,5 @@ import './commands.web'
 import './commands.api'
 import 'cypress-plugin-api'
 import 'cypress-mochawesome-reporter/register';
-import 'cypress-axe'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
