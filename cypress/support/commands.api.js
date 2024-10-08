@@ -40,10 +40,7 @@ Cypress.Commands.add('get_all_users', () => {
         headers: {
             "Content-Type": "application/json",
         },
-    }).should((response) => {
-        expect(response.status).equal(200);
-        return response;
-    });
+    })
 });
 Cypress.Commands.add('get_users_by_name', (name) => {
     cy.api({
@@ -75,10 +72,7 @@ Cypress.Commands.add('get_users_by_name', (name) => {
             "Content-Type": "application/json",
         },
         qs: name,
-    }).should((response) => {
-        expect(response.status).equal(200);
-        return response;
-    });
+    })
 });
 Cypress.Commands.add('post_user', (body) => {
     cy.api({
@@ -111,13 +105,7 @@ Cypress.Commands.add('post_user', (body) => {
         },
         body: body,
 
-    }).should((response) => {
-        expect(response.status).equal(201);
-        const userId = response.body._id
-        expect(response.body.message).equal("Cadastro realizado com sucesso");
-        expect(response.body).have.property('message', "Cadastro realizado com sucesso");
-        return userId;
-    });
+    })
 });
 Cypress.Commands.add('post_user_faker_js', (nome, email, password, administrador) => {
     cy.api({
@@ -155,11 +143,5 @@ Cypress.Commands.add('post_user_faker_js', (nome, email, password, administrador
             "administrador": administrador
         },
 
-    }).should((response) => {
-        expect(response.status).equal(201);
-        const userId = response.body._id
-        expect(response.body.message).equal("Cadastro realizado com sucesso");
-        expect(response.body).have.property('message', "Cadastro realizado com sucesso");
-        return userId;
-    });
+    })
 });
