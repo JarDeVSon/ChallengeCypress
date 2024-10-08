@@ -36,7 +36,7 @@ Run the command "npm install" to install the following dependencies:
 ## Project Structure: Page Object Model and Single Responsibility Principle Pattern:
 
 
-| Package                    |                                                                                 |
+| Package                    | Responsibiity                                                                   |
 |----------------------------|---------------------------------------------------------------------------------|
 | fixtures                   | responsible for managing test data mass                                         |
 | selectors                  | responsible for identifying web elements                                        |
@@ -48,6 +48,8 @@ Run the command "npm install" to install the following dependencies:
 
 - `npx cypress open` To Open UI Cypress Interactive mode
 - `npx cypress run`  To run tests in headless mode
-- `npm run test:dev` To rin tests in headless mode in dev/develop environment example
+- `npm run test:dev` To run tests in headless mode in dev/develop environment example
 - `npm run test:hom` To run tests in headless mode in homolog/staging environment example
+- `npm run test:api` To run tests for Backend API
+- `npm run test:web` To run tests for Frontend Web
 
