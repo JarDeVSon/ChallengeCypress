@@ -1,13 +1,13 @@
 {
   "usuario1": {
     "nome": "data[0]",
-    "email": "s+fgtestek5qwqw5123@bol.com.br",
+    "email": "s+dd@bol.com.br",
     "password": "teste@123",
     "administrador": "false"
   },
   "usuario2": {
     "nome": "data[1]",
-    "email": "4+testes15qfgwqkw523@bol.com.br",
+    "email": "w523dd@bol.com.br",
     "password": "teste@123",
     "administrador": "true"
   }
